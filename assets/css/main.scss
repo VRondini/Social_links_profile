@@ -1,0 +1,85 @@
+@font-face {
+    font-family: VariableFont;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.central-gray-rectangle{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 20px 40px 40px;
+    height: 540px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-author-avatar{
+    height: 80px;
+    border-radius: 45px;
+}
+
+.author-name{
+    text-align:center;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: VariableFont;
+    color:white;
+    margin-bottom:15px;
+}
+
+.author-living-place{
+    text-align: center;
+    font-weight: 800;
+    font-family: VariableFont;
+    color: hsl(75, 94%, 57%);
+}
+
+.author-description{
+    text-align: center;
+    font-family: VariableFont;
+    font-size: 14px;
+    color: white;
+    margin: 35px 0 10px 0;
+}
+
+.social-media-forms {
+    width: 100%;
+}
+
+.social-media-button{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: VariableFont;
+    font-weight: 800;
+    color: white;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-family: VariableFont;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

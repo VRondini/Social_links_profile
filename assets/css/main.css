@@ -70,6 +70,12 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-media-button:hover {
+  background-color: hsl(0, 0%, 30%);
 }
 
 .attribution {
@@ -81,6 +87,67 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+  .central-gray-rectangle {
+    height: 440px;
+    width: 250px;
+  }
+  .cv-author-avatar {
+    height: 70px;
+  }
+  .author-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 13px;
+  }
+  .author-living-place {
+    font-size: 12px;
+  }
+  .author-description {
+    font-size: 12px;
+    margin: 25px 0 5px 0;
+  }
+  .social-media-forms {
+    width: 100%;
+  }
+  .social-media-button {
+    height: 40px;
+  }
+  .attribution {
+    font-size: 8px;
+  }
+}
+@media (max-width: 390px) {
+  .central-gray-rectangle {
+    height: 440px;
+    width: 250px;
+  }
+  .cv-author-avatar {
+    height: 70px;
+  }
+  .author-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 13px;
+  }
+  .author-living-place {
+    font-size: 12px;
+  }
+  .author-description {
+    font-size: 12px;
+    margin: 25px 0 5px 0;
+  }
+  .social-media-forms {
+    width: 100%;
+  }
+  .social-media-button {
+    height: 40px;
+  }
+  .attribution {
+    font-size: 8px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
